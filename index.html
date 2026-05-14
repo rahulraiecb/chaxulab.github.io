@@ -3,14 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Web Page</title>
+    <title>CHAXU Lab | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
-    <h1>Welcome to Chaxu Lab</h1>
-    <p>This is a simple paragraph of text on a basic HTML page.</p>
-    
-    <a href="https://google.com">Click here to visit Google</a>
+    <nav class="floating-nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#members">Members</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero-section">
+        <div class="hero-overlay">
+            <h1>CHAXU Lab</h1>
+            <p>Advancing Research in [Your Lab's Field]</p>
+        </div>
+    </header>
+
+    <section class="icon-menu">
+        <div class="container">
+            <div class="icon-item">
+                <a href="#about"><i class="fas fa-microscope"></i></a>
+                <span>About Lab</span>
+            </div>
+            <div class="icon-item">
+                <a href="#members"><i class="fas fa-users"></i></a>
+                <span>Members</span>
+            </div>
+            <div class="icon-item">
+                <a href="#projects"><i class="fas fa-diagram-project"></i></a>
+                <span>Projects</span>
+            </div>
+            <div class="icon-item">
+                <a href="#publications"><i class="fas fa-book"></i></a>
+                <span>Publications</span>
+            </div>
+            <div class="icon-item">
+                <a href="#contact"><i class="fas fa-envelope"></i></a>
+                <span>Contact Us</span>
+            </div>
+        </div>
+    </section>
+
+    <main class="content">
+        <section id="about" class="detail-block">
+            <h2>About CHAXU Lab</h2>
+            <p>Details about the lab goals, vision, and mission go here...</p>
+        </section>
+
+        <section id="members" class="detail-block">
+            <h2>Members</h2>
+            <p>List of faculty, PhD scholars, and students...</p>
+        </section>
+
+        </main>
 
 </body>
 </html>
